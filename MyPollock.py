@@ -1,6 +1,5 @@
 ﻿
-from tkinter import FIRST
-from tkinter.font import BOLD
+
 import pygame, sys
 import math
 from random import randint
@@ -68,7 +67,7 @@ global user_text5
 global artist_name
  
 sale_button = 2
-arrow_fwd = pygame.image.load("assets/forward.png")
+arrow_fwd = pygame.image.load("../images/back.png")
 arrow_back = pygame.image.load("assets/back.png")
 style_0_image = pygame.image.load("assets/style_pallet00.png")
 style_1_image = pygame.image.load("assets/style_pallet11.png")
