@@ -1,5 +1,6 @@
 ﻿
-
+from tkinter import FIRST
+from tkinter.font import BOLD
 import pygame, sys
 import math
 from random import randint
